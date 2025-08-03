@@ -9,3 +9,16 @@ Later in the day:
 - The "Student" category sold out completely.
 - The team wanted to keep a record of the day’s sales before preparing for next week’s concert.
 """
+
+tickets = {"VIP": 50, "Regular": 150, "Student": 75}
+print(tickets)
+tickets["Backstage"] = 20
+print(tickets)
+
+del tickets["Student"]
+print(tickets)
+
+tickets.copy()
+print(tickets)
+
+
